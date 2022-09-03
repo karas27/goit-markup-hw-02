@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
     <link rel="stylesheet" href="/portfolio/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
         <header class="header">
@@ -27,45 +30,46 @@
     <main>
 <!-- Hero Section -->
 <section class="hero">
-        <h1 >Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <h1 class="hero-titel">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="hero-button">Замовити послугу</button>
         </section>
 <!-- About Us Section -->
-        <section>
+        <section class="aboutus">
             <h2 hidden>Переваги нашої компанії</h2>
-            <ul>
-                <li><h3>УВАГА ДО ДЕТАЛЕЙ</h3><p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
-                <li><h3>ПУНКТУАЛЬНІСТЬ</h3><p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
-                <li><h3>ПЛАНУВАННЯ</h3><p>Так само консультація з широким активом значною мірою зумовлює.</p></li>
-                <li><h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3><p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
+            <ul class="about-desription">
+                <li class="about-list"><h3 class="about-titel">УВАГА ДО ДЕТАЛЕЙ</h3><p class="about-paragraph">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
+                <li class="about-list"><h3 class="about-titel">ПУНКТУАЛЬНІСТЬ</h3><p class="about-paragraph">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
+                <li class="about-list"><h3 class="about-titel">ПЛАНУВАННЯ</h3><p class="about-paragraph">Так само консультація з широким активом значною мірою зумовлює.</p></li>
+                <li class="about-list"><h3 class="about-titel">СУЧАСНІ ТЕХНОЛОГІЇ</h3><p class="about-paragraph">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
             </ul>
         </section>
-        <section>
-            <h2>Чим ми займаємося</h2>
-            <ul>
-                <li><img src="./images/image.jpg" width="370" height="294" alt="Додатки на Компьютери чи Ноутбуки"></li>
-                <li><img src="./images/image2.jpg" width="370" height="294" alt="Додатки на телефони"></li>
-                <li><img src="./images/image3.jpg" width="370" height="294" alt="Додатки на Планшети"></li>
+<!--WHat WE DO Section-->
+        <section class="whatwedo">
+            <h2 class="whatwedo-titel">Чим ми займаємося</h2>
+            <ul class="whatwedo-description">
+                <li class="whatwedo-list"><img src="./images/image.jpg" width="370" height="294" alt="Додатки на Компьютери чи Ноутбуки" class="whatwedo-img"></li>
+                <li class="whatwedo-list"><img src="./images/image2.jpg" width="370" height="294" alt="Додатки на телефони" class="whatwedo-img"></li>
+                <li class="whatwedo-list"><img src="./images/image3.jpg" width="370" height="294" alt="Додатки на Планшети" class="whatwedo-img"></li>
             </ul>
         </section>
-        <section>
-<!-- Our Team Section -->
-            <h2>Наша команда</h2>
-            <ul>
-                <li>
-                    <img src="./images/image(1).jpg" width="270" height="260" alt="Фото Ігор Дем'яненко">
-            <h3>Ігор Дем'яненко</h3>
-                        <p lang="en">Product Designer</p>
+        <!-- Our Team Section -->
+        <section class="ourteam">
+            <h2 class="ourteam-titel">Наша команда</h2>
+            <ul class="ourteam-desraption">
+                <li class="ourteam-list">
+                    <img src="./images/image(1).jpg" width="270" height="260" alt="Фото Ігор Дем'яненко" class="ourteam-img">
+            <h3 class="ourteam-name">Ігор Дем'яненко</h3>
+                        <p lang="en" class="ourteam-paragraph">Product Designer</p>
                     </li>
-                <li><img src="./images/image(2).jpg" width="270" height="260" alt="Фото Ольга Рєпіна">
-                <h3>Ольга Рєпіна</h3>
-                <p lang="en">Frontend Developer</p></li>
-                <li><img src="./images/image(3).jpg" width="270" height="260" alt="Фото Микола Тарасов">
-                <h3>Микола Тарасов</h3>
-                <p lang="en">Marketing</p></li>
-                <li><img src="./images/image(1).jpg" width="270" height="260" alt="Фото Михайло Єрмаков">
-                <h3>Михайло Єрмаков</h3>
-                <p lang="en">UI Designer</p></li>
+                <li class="ourteam-list"><img src="./images/image(2).jpg" width="270" height="260" alt="Фото Ольга Рєпіна" class="ourteam-img">
+                <h3 class="ourteam-name">Ольга Рєпіна</h3>
+                <p lang="en" class="ourteam-paragraph">Frontend Developer</p></li>
+                <li class="ourteam-list"><img src="./images/image(3).jpg" width="270" height="260" alt="Фото Микола Тарасов" class="ourteam-img">
+                <h3 class="ourteam-name">Микола Тарасов</h3>
+                <p lang="en" class="ourteam-paragraph">Marketing</p></li>
+                <li class="ourteam-list"><img src="./images/image(1).jpg" width="270" height="260" alt="Фото Михайло Єрмаков" class="ourteam-img">
+                <h3 class="ourteam-name">Михайло Єрмаков</h3>
+                <p lang="en" class="ourteam-paragraph">UI Designer</p></li>
             </ul>
         </section>
     </main>

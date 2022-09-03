@@ -10,6 +10,7 @@ body{
     color: var(--primary-text-color);
     background: #F5F5F5;
     text-decoration: none;
+    font-family: Roboto, sans-serif;
 }
 a {
     text-decoration: none;
@@ -50,11 +51,72 @@ a {
     font-size: 14px;
     font-weight: 500;
 }
-/*                                                TYPE OF PRODUCT SECTION*/
-.typeofproduct-item {
+/*                                       FOOTER*/
+.footer {
+    background-color: #2F303A;
+    height: 252px;
+    width: 1600px;
+}
+
+.logo-footer-studio {
+    color: var(--white-color);
+}
+
+.footer-descraption {
     list-style-type: none;
+}
+
+.footer-link {
+    color: var(--primary-text-color);
+}
+
+.adress-footer {
+    color: var(--white-color);
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!STUDIO PAGE!!!!!!!!!!!!!!!!!!!!!*/
+/*                                      HERO SECTION                 */
+.hero{
+    background-color: #2F303A;
+    text-align: center;
+    height: 600px;
+    width: 1600px;
+        left: 0px;
+        top: 80px;
+}
+.hero-titel {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    position: absolute;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-style: hidden;
+}
+/*                    ABOUT US SECTION                    */
+.about-desription, .typeofproduct-item, .whatwedo-list, .ourteam-list {
+    list-style-type: none;
+}
+.about-titel, .whatwedo-titel, .typeofproduct-item,.titel, .ourteam-titel, .ourteam-name {
     color: var(--title-text-color);
 }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!! PORTFOLIO PAGE!!!!!!!!!!*/
+/*                                                TYPE OF PRODUCT SECTION*/
 .typeofproduct-item :hover {
     color: var(--white-color);
     background-color: var(--accent-color);
@@ -67,22 +129,4 @@ a {
 .titel {
 font-size: 18px;
 font-weight: 700;
-color: var(--title-text-color);
-}
-.footer {
-    background-color: #2F303A;
-    height: 252px;
-    width: 1600px;
-}
-.logo-footer-studio {
-    color: var(--white-color);
-}
-.footer-descraption {
-    list-style-type: none;
-}
-.footer-link{
-    color: var(--primary-text-color);
-}
-.adress-footer {
-    color: var(--white-color);
 }
