@@ -20,7 +20,15 @@ a {
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
+    font-family: Roboto;
 
+}
+
+:current(.link-curent) {
+    color: var(--accent-color);
+}
+.link-curent{
+    color: var(--accent-color);
 }
 .logo-web {
     color: var(--accent-color);
@@ -57,7 +65,11 @@ a {
     height: 252px;
     width: 1600px;
 }
-
+.logo-footer {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+}
 .logo-footer-studio {
     color: var(--white-color);
 }
@@ -96,6 +108,9 @@ a {
     text-transform: uppercase;
 }
 .hero-button {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
     color: var(--white-color);
     background-color: var(--accent-color);
     cursor: pointer;
@@ -121,6 +136,11 @@ a {
     color: var(--white-color);
     background-color: var(--accent-color);
     cursor: pointer;
+}
+.typeofproduct-button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
 }
 /*                                         EXAMPLES OF PRODUCT SECTION*/
 .exampleofproduct-descraption {
