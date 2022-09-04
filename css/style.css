@@ -8,7 +8,7 @@
 
 body{
     color: var(--primary-text-color);
-    background: #F5F5F5;
+    background-color: var(--white-color);
     text-decoration: none;
     font-family: Roboto, sans-serif;
 }
@@ -16,11 +16,11 @@ a {
     text-decoration: none;
 }
 /*                                                  HEADER SECTION */ 
-.logo-header, .logo-footer {
+.logo-header, .logo-footer{
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
-    font-family: Roboto;
+    font-family: Raleway, sans-serif;
 
 }
 
@@ -65,21 +65,16 @@ a {
     height: 252px;
     width: 1600px;
 }
-.logo-footer {
-    font-family: Roboto;
-    font-size: 26px;
-    font-weight: 700;
-}
 .logo-footer-studio {
     color: var(--white-color);
 }
-
 .footer-descraption {
     list-style-type: none;
 }
 
 .footer-link {
     color: var(--primary-text-color);
+    font-style: normal;
 }
 
 .adress-footer {
@@ -141,6 +136,8 @@ a {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 /*                                         EXAMPLES OF PRODUCT SECTION*/
 .exampleofproduct-descraption {
