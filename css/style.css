@@ -75,8 +75,11 @@ a {
 .footer-link {
     color: var(--primary-text-color);
     font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
 }
-
+.footer-item :hover {
+    color: var(--accent-color);
+}
 .adress-footer {
     color: var(--white-color);
 }
@@ -121,6 +124,9 @@ a {
 /*                    ABOUT US SECTION                    */
 .about-desription, .typeofproduct-item, .whatwedo-list, .ourteam-list {
     list-style-type: none;
+}
+.ourteam {
+    background-color: #F5F4FA;;
 }
 .about-titel, .whatwedo-titel, .typeofproduct-item,.titel, .ourteam-titel, .ourteam-name {
     color: var(--title-text-color);
