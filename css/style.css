@@ -47,9 +47,13 @@ a {
 .header-link {
     color: var(--title-text-color);
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
 }
 .header-contact {
     list-style-type: none;
+    font-size: 14px;
+        font-weight: 500;
 }
 .header-contact :hover {
     color: var(--accent-color);
@@ -76,6 +80,8 @@ a {
     color: var(--primary-text-color);
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 400;
 }
 .footer-item :hover {
     color: var(--accent-color);
@@ -125,14 +131,30 @@ a {
 .about-desription, .typeofproduct-item, .whatwedo-list, .ourteam-list {
     list-style-type: none;
 }
+.about-titel {
+    font-weight: 700;
+    font-size: 14px;
+}
+.about-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+}
 .ourteam {
     background-color: #F5F4FA;;
 }
-.ourteam-titel {
+.ourteam-titel, .whatwedo-titel {
     font-weight: 700;
     font-size: 36px;
 }
-.about-titel, .whatwedo-titel, .typeofproduct-item,.titel, .ourteam-titel, .ourteam-name {
+.ourteam-name {
+    font-weight: 500;
+    font-size: 16px;
+}
+.ourteam-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+}
+.about-titel, .whatwedo-titel, .typeofproduct-item,.exampleofproduct-titel, .ourteam-titel, .ourteam-name {
     color: var(--title-text-color);
 }
 /*!!!!!!!!!!!!!!!!!!!!!!!!!! PORTFOLIO PAGE!!!!!!!!!!*/
@@ -144,9 +166,9 @@ a {
 }
 .typeofproduct-button {
     font-family: Roboto;
+    background: #F5F4FA;
     font-size: 16px;
     font-weight: 500;
-    background: #F5F4FA;
     border-radius: 4px;
     border-style: hidden;
 }
@@ -154,7 +176,11 @@ a {
 .exampleofproduct-descraption {
     list-style-type: none;
 }
-.titel {
+.exampleofproduct-titel{
 font-size: 18px;
 font-weight: 700;
+}
+.exampleofproduct-paragraph {
+    font-size: 16px;
+    font-weight: 400;
 }
