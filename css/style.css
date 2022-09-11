@@ -1,3 +1,10 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 :root {
 
             --primary-text-color: #757575;
@@ -13,18 +20,35 @@ body{
     font-family: Roboto, sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
+    margin: 0px;
 }
 a {
     text-decoration: none;
+    padding: 5px;
 }
 /*                                                  HEADER SECTION */ 
+.header-container {
+    margin: auto;
+    display: flex;
+    width: 1170px;
+    text-align: center;
+    outline: 2px solid tomato;
+}
 .logo-header, .logo-footer{
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
     font-family: Raleway, sans-serif;
+    display: flex;
 }
-
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
 :current(.link-curent) {
     color: var(--accent-color);
 }
@@ -40,6 +64,10 @@ a {
 .header-description {
     list-style-type: none;
     font-weight: 500;
+    display: flex;
+}
+.header-item + .header-item {
+    margin-left: 50px;
 }
 .header-description :hover {
     color: var(--accent-color);
@@ -55,6 +83,8 @@ a {
 .header-contact {
     list-style-type: none;
         font-weight: 500;
+        margin: 0px;
+        display: flex;
 }
 .header-contact :hover {
     color: var(--accent-color);
@@ -91,11 +121,12 @@ a {
 /*                                      HERO SECTION                 */
 .hero{
     background-color: #2F303A;
+    margin: 0px;
     text-align: center;
     height: 600px;
     width: 1600px;
     left: 0px;
-    top: 80px;
+    top: 80px; 
 }
 .hero-titel {
     color: var(--white-color);
@@ -104,7 +135,7 @@ a {
     width: 696px;
     height: 120px;
     left: 452px;
-    top: 280px;
+    top: 200px;
     position: absolute;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -120,31 +151,77 @@ a {
     width: 216px;
     height: 50px;
     left: 692px;
-    top: 430px;
+    top: 360px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-style: hidden;
 }
 /*                    ABOUT US SECTION                    */
+.about-container {
+  text-align: center;
+  width: 1170px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+  background-color: tomato;
+}
+.about-list {
+    text-align: left;
+}
 .about-desription, .typeofproduct-item, .whatwedo-list, .ourteam-list {
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 .about-titel {
     font-weight: 700;
+    margin: 0px;
+}
+.about-paragraph {
+    margin: 0px;
+}
+.whatwedo-container {
+    text-align: center;
+    margin: 0px;
+    background-color: #2196F3;
+    width: 1170px;
+}
+.whatwedo-titel {
+    margin: 0px;
+}
+.whatwedo-description {
+    margin: 0px;
+}
+.ourteam-container {
+    text-align: center;
+    width: 1170px;
+    background-color: aqua;
 }
 .ourteam {
-    background-color: #F5F4FA;;
+    background-color: #F5F4FA;
+    margin: 0px;
 }
 .ourteam-titel, .whatwedo-titel {
     font-weight: 700;
     font-size: 36px;
+    margin: 0px;
+    padding-top: 94px;
+        padding-bottom: 50px;
+}
+.ourteam-desraption {
+    display: flex;
 }
 .ourteam-name {
     font-weight: 500;
     font-size: 16px;
+    margin: 0px;
+    padding: 0px;
 }
 .ourteam-paragraph {
     font-size: 16px;
+    margin: 0px;
+        padding: 0px;
 }
 .about-titel, .whatwedo-titel, .typeofproduct-item,.exampleofproduct-titel, .ourteam-titel, .ourteam-name {
     color: var(--title-text-color);
